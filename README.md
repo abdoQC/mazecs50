@@ -2,8 +2,6 @@
 
 A Python practice project based on the maze-search material from Harvard's **CS50's Introduction to Artificial Intelligence with Python**. It generates a random maze and finds a path from the start point to the goal using **Breadth-First Search (BFS)**.
 
-![Generated maze solution](maze.png)
-
 ## Features
 
 - Generates a new 21 × 21 maze every run using recursive backtracking.
@@ -25,9 +23,9 @@ This project builds on the maze-search concepts and starter structure from Harva
 ```text
 automaze.py  # Generates and saves maze.txt
 maze.py      # Solves maze.txt and creates maze.png
-maze.txt     # Generated maze input
-maze.png     # Generated solution image
 ```
+
+`maze.txt` and `maze.png` are generated at runtime and are intentionally not tracked in the repository.
 
 ## How it works
 
